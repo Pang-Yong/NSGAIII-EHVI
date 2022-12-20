@@ -10,7 +10,10 @@ classdef NSGAIIIEHVI < ALGORITHM
 % randp --- 0.3 --- The parameter in generating a random number
 
 %------------------------------- Reference --------------------------------
-% 
+% Y. Pang, Y. Wang, S. Zhang, X. Lai, W. Sun and X. Song, "An Expensive 
+% Many-Objective Optimization Algorithm Based on Efficient Expected 
+% Hypervolume Improvement," in IEEE Transactions on Evolutionary 
+% Computation, doi: 10.1109/TEVC.2022.3228516.
 %------------------------------- Copyright --------------------------------
 % Copyright (c) 2022 BIMK Group. You are free to use the PlatEMO for
 % research purposes. All publications which use this platform or any code
@@ -20,7 +23,8 @@ classdef NSGAIIIEHVI < ALGORITHM
 % Computational Intelligence Magazine, 2017, 12(4): 73-87".
 %--------------------------------------------------------------------------
 % This function is written by Yong Pang
-
+% Email pangy@mail.dlut.edu.cn
+% Tel +86 13130408033
 
 
     methods
