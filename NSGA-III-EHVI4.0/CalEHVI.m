@@ -61,7 +61,7 @@ function EI = CalEHVI(RealFirstObj,Obj,MSE,S,S_S)
                   p=normpdf(NonDomS(:,j) ,Obj(i,j),sigma(i,j));
                   P=P.*p;
               end
-              EI(i)=(I.*P);
+              EI(i)=sum(I.*P);
           end
       end
 end      
